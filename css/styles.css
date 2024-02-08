@@ -273,6 +273,12 @@ a {
   background-size: cover;
   margin-top: 40px;
 }
+.img {
+  background-image: url(../images/small-bird.png);
+}
+.img2 {
+  background-image: url(../images/big-arrow-right.png);
+}
 .language-talaslate {
   font-weight: 400;
   font-size: 24px;
@@ -280,4 +286,62 @@ a {
   text-align: justify;
   color: #000;
   margin-top: 40px;
+}
+.footer {
+  height: 223px;
+  padding-top: 35px;
+  padding-right: 205px;
+  padding-bottom: 25px;
+  padding-left: 205px;
+  background-image: linear-gradient(
+      to right,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.8)
+    ),
+    url("../images/footer-bg.png");
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+}
+.footer-logo {
+  display: contents;
+}
+.footer-logo::after {
+  content: "";
+  width: 2px;
+  height: 153px;
+  background-color: #fff;
+  display: inline-block;
+  margin-left: 80px;
+}
+.contacts-list {
+  width: 690px;
+  margin-left: 80px;
+}
+
+.contacts-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: justify;
+  color: #fff;
+}
+.contacts-item:nth-child(2) {
+  margin-top: 16px;
+}
+.contacts-link {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: justify;
+  color: #fff;
+}
+.small {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: justify;
+  color: #fff;
+  margin-left: 474px;
 }
