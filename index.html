@@ -20,55 +20,61 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <a href="/">
+    <header class="header">
+      <div class="container header-position">
+        <a class="logo" href="/">
           <img src="./images/loga.png" alt="лаготип Аватара" />
         </a>
-        <nav>
-          <ul>
-            <li>
-              <a href="/"> головна </a>
+        <nav class="nav">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a class="menu-link" href="/">Головна</a>
             </li>
-            <li>
-              <a href="/"> про нас</a>
+            <li class="menu-item">
+              <a class="menu-link" href="/">Про нас</a>
             </li>
-            <li>
-              <a href="/"> контакти </a>
+            <li class="menu-item">
+              <a class="menu-link" href="/">Контакти</a>
             </li>
           </ul>
         </nav>
-        <a href="#"> увійти </a>
+        <a class="header-link" href="#">Увійти</a>
       </div>
-      <span>ENG </span>
-      <img src="./images/switcher.png" alt="зображеня перемикача мов" />
-      <span>UA </span>
+      <div class="switcher">
+        <span class="switcher-lang">ENG </span>
+        <img src="./images/switcher.png" alt="зображеня перемикача мов" />
+        <span class="switcher-lang">UA </span>
+      </div>
     </header>
     <main>
-      <section>
-        <div class="container">
-          <p>
-            Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn slu
-            Na'viyä hapxì. Säwem nìayoeng!
-          </p>
-          <div class="arrow-left"></div>
-          <p>
-            Хоробрий воїне, звертаюсь до тебе! Твій дух йде з Ейвою, твоє тіло
-            залишається, щоб стати частиною Народу. Борись разом з нами!
-          </p>
-          <button type="button">Приєднатися до клану</button>
-          <ul>
-            <li>
+      <section class="hero">
+        <div class="container hero-position">
+          <div class="hero-content">
+            <p class="hero-text">
+              Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn
+              slu Na'viyä hapxì. Säwem nìayoeng!
+            </p>
+            <div class="arrow-left"></div>
+            <p class="hero-text">
+              Хоробрий воїне, звертаюсь до тебе! Твій дух йде з Ейвою, твоє тіло
+              залишається, щоб стати частиною Народу. Борись разом з нами!
+            </p>
+            <button class="hero-button" type="button">
+              Приєднатися до клану
+            </button>
+          </div>
+          <ul class="icons-list">
+            <li class="icons-instogram">
               <a href="/">
                 <img src="./images/instogram.png" alt="зображеня інстограм" />
               </a>
             </li>
-            <li>
+            <li class="icons-twitter">
               <a href="/">
                 <img src="./images/twitter.png" alt="зображеня твітер" />
               </a>
             </li>
-            <li>
+            <li class="icons-youtube">
               <a href="/">
                 <img src="./images/youtube.png" alt="зображеня ютюб" />
               </a>
@@ -76,63 +82,67 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section class="blockquote">
         <div class="container">
-          <h2>
+          <h2 class="icons-quotes">
             “БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ <br />ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА
             НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”
           </h2>
-          <p>Джейк Саллі</p>
-          <div></div>
+          <p class="aftor-quote">Джейк Саллі</p>
+          <div class="bird"></div>
         </div>
       </section>
-      <section>
+      <section class="trailer">
         <div class="container">
-          <a href="https://fonts.google.com/" target="_blank">
+          <a
+            class="trailer-link"
+            href="https://fonts.google.com/"
+            target="_blank"
+          >
             Дивитись трейлер
           </a>
         </div>
       </section>
-      <section>
+      <section class="blockquote">
         <div class="container">
-          <h2>
+          <h2 class="icons-quotes">
             “ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ<br />ЇЇ ДОВЕДЕТЬСЯ
             ПОВЕРНУТИ.”
           </h2>
-          <p>Джейк Саллі</p>
-          <div></div>
+          <p class="aftor-quote">Джейк Саллі</p>
+          <div class="bird"></div>
         </div>
       </section>
-      <section>
+      <section class="language">
         <div class="container">
-          <h2>Вчимо мову На’ві</h2>
-          <ul>
-            <li>
-              <p>Привіт</p>
-              <div></div>
-              <p>Kaltxì</p>
+          <h2 class="language-title">Вчимо мову На’ві</h2>
+          <ul class="language-list">
+            <li class="language-item">
+              <p class="language-text">Привіт</p>
+              <div class="language-imge"></div>
+              <p class="language-talaslate">Kaltxì</p>
             </li>
-            <li>
+            <li class="language-item">
               <p>Як справи?</p>
               <div></div>
               <p>Ngaru lu fpom srak?</p>
             </li>
-            <li>
+            <li class="language-item">
               <p>Все добре</p>
               <div></div>
               <p>Lu fpom</p>
             </li>
-            <li>
+            <li class="language-item">
               <p>Дякую</p>
               <div></div>
               <p>Irayo si</p>
             </li>
-            <li>
+            <li class="language-item">
               <p>Я бачу тебе</p>
               <div></div>
               <p>Oel ngati kameie</p>
             </li>
-            <li>
+            <li class="language-item">
               <p>Слідуй за мною!</p>
               <div></div>
               <p>Nong oet!</p>
@@ -140,14 +150,14 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section class="blockquote">
         <div class="container">
-          <h2>
+          <h2 class="icons-quotes">
             “НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,<br />ВОНА ЗАХИЩАЄ ЛИШЕ
             ЖИТТЄВИЙ БАЛАНС.”
           </h2>
-          <p>Нейтірі</p>
-          <div></div>
+          <p class="aftor-quote">Нейтірі</p>
+          <div class="bird"></div>
         </div>
       </section>
     </main>
